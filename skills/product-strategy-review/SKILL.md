@@ -87,6 +87,7 @@ Based on PRISM scores, recommend one option:
 - Validate that improvements are prioritized by impact, not just listed
 - Iterate on review quality by comparing with previous PRISM reviews for the same area
 - Improve by incorporating feedback from strategy document owners
+- **AI/ML opportunity:** Consider how AI could enhance strategy review (e.g., automated evidence gathering from multiple sources, competitor signal detection, trend forecasting for scenario analysis). Note relevant opportunities in the output.
 
 ## Skill Integration
 - **Before this skill:** Gather evidence from initiatives, use [OKR Sparring Partner](/okr-sparring-partner) for OKR validation

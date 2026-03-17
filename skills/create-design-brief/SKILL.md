@@ -124,3 +124,9 @@ Before finalizing, review and evaluate:
 ```
 Opportunities → ICE Score → Design Brief → Figma Prompt
 ```
+
+## Self-Evaluation
+- Review whether all design tokens map correctly to existing design system values
+- Validate accessibility compliance: WCAG 2.2 AA, touch targets, keyboard navigation
+- Evaluate whether success metrics are measurable and tied to business outcomes
+- **AI/ML opportunity:** Consider how AI could enhance the design process (e.g., AI-generated layout variations, automated accessibility auditing, design system consistency checks via ML). Note relevant opportunities in the output.

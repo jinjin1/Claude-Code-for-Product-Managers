@@ -11,11 +11,11 @@ description: >
 ## Goal
 Create a new initiative folder with standardized structure and populate with customized templates from the initiative template.
 
-## When to Use (활용 시나리오)
+## When to Use
 - When starting a new product initiative or project
 - When a PM needs a consistent folder structure for discovery, design, and delivery
 - When onboarding a new initiative into the team's workflow
-- 적용 대상: 구조화된 PM 아티팩트가 필요한 모든 사용 상황
+- Applicable to: All PMs needing structured initiative artifacts
 
 ## Input
 - **Required:** Initiative name (kebab-case: e.g., 'mobile-app-redesign')
@@ -29,7 +29,7 @@ Create a new initiative folder with standardized structure and populate with cus
 - **Location:** `initiatives/[initiative-name]/`
 - **Filename convention:** kebab-case initiative name as folder
 
-## Process (단계별 워크플로우)
+## Process
 1. **Gather Initiative Details**
    - Initiative name (use kebab-case: e.g., 'mobile-app-redesign')
    - Owner/Product Manager name
@@ -145,6 +145,12 @@ AI Response:
 - Customizes README with "Mobile App Redesign" and "Sarah Kim"
 - Provides next steps for user research, design brief creation, and PRD creation
 ```
+
+## Self-Evaluation
+- Review whether all template folders and files were created successfully
+- Validate that README.md placeholders are fully replaced with initiative details
+- Evaluate whether the initiative aligns with at least one company OKR
+- **AI/ML opportunity:** Consider how AI could enhance initiative setup (e.g., auto-suggesting initiative structure based on type, pre-populating context from similar past initiatives, intelligent template selection). Note relevant opportunities in the output.
 
 ---
 *This script automates the tedious setup process while ensuring consistency across all initiatives.*

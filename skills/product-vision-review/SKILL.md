@@ -11,11 +11,11 @@ description: >
 ## Goal
 Review and score product vision documents against 4 proven criteria, provide actionable feedback, and recommend concrete improvement options.
 
-## When to Use (활용 시나리오)
+## When to Use
 - When reviewing a newly drafted product vision statement
 - When preparing for a strategic planning session
 - When validating vision alignment with company OKRs and strategic direction
-- 적용 대상: 비전 리뷰가 필요한 모든 PM 사용 상황
+- Applicable to: All PMs needing product vision review
 
 ## Input
 - **Required:** Product vision document or statement (from `company-level-context/product-vision-and-strategy/` or user-provided)
@@ -27,7 +27,7 @@ Review and score product vision documents against 4 proven criteria, provide act
 - **Location:** Same directory as input vision document, or `company-level-context/product-vision-and-strategy/`
 - **Filename:** `vision-review-[YYYY-MM-DD].md`
 
-## Process (단계별 워크플로우)
+## Process
 
 ### Step 1: Evidence Readiness Check
 Before reviewing, verify:
@@ -107,3 +107,9 @@ When vision scores are borderline (12–14/20), suggest options:
 - **Before this skill:** Draft vision using company strategic context from `company-level-context/product-vision-and-strategy/`
 - **After this skill:** Use `/product-strategy-review` to validate the full strategy built on this vision
 - **Related workflow:** `/okr-sparring-partner` to ensure OKRs align with the reviewed vision
+
+## Self-Evaluation
+- Review whether scores are justified with specific evidence from the vision document
+- Validate that recommendations are actionable and not generic advice
+- Evaluate whether strategic context from company documents was incorporated
+- **AI/ML opportunity:** Consider how AI could enhance vision review (e.g., automated competitive vision benchmarking, NLP-based clarity scoring, trend analysis to validate vision timeliness). Note relevant opportunities in the output.

@@ -131,3 +131,9 @@ Before finalizing, evaluate and validate:
 ```
 Interview → Create Snapshots → Synthesize → Create Opportunities → Solutions
 ```
+
+## Self-Evaluation
+- Review whether stories contain concrete behavioral details (not generalizations)
+- Validate that opportunities are framed as customer problems, not feature requests
+- Evaluate quote coverage: Are insights backed by direct participant words?
+- **AI/ML opportunity:** Consider how AI could enhance interview processing (e.g., automated transcript analysis, real-time sentiment detection during interviews, NLP-based opportunity extraction at scale). Note relevant opportunities in the output.

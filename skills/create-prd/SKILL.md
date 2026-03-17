@@ -15,19 +15,19 @@ To guide an AI assistant in creating a detailed Product Requirements Document (P
 - When defining feature requirements for development teams
 - When creating specification documents from product decisions
 - When translating user needs into actionable development specs
-- 적용 대상: 모든 PM이 기능 요구사항을 문서화할 때 사용
+- Applicable to: All PMs when documenting feature requirements
 
 ## Input
 - **Required:** Feature description or user request
 - **Optional:** User research, 1-pager, design brief
 - **Context Source:** Reference `company-level-context/product-vision-and-strategy/` for strategic alignment
 
-## Process (단계별 워크플로우)
+## Process
 
 1.  **Receive Initial Prompt:** The user provides a brief description or request for a new feature or functionality.
 2.  **Ask Clarifying Questions:** Before writing the PRD, the AI *must* ask only the most essential clarifying questions needed to write a clear PRD. Limit questions to 3-5 critical gaps in understanding. The goal is to understand the "what" and "why" of the feature, not necessarily the "how" (which the developer will figure out). Make sure to provide options in letter/number lists so I can respond easily with my selections.
 3.  **Generate PRD:** Based on the initial prompt and the user's answers to the clarifying questions, generate a PRD using the structure outlined below.
-4.  **Save PRD:** Save the generated document as `prd-[feature-name].md` inside the `/tasks` directory.
+4.  **Save PRD:** Save the generated document as `prd-[feature-name].md` inside the `/prd/` directory.
 5.  **Writing Standards:** Follow the `/writing-guide` skill rules for voice, tone, banned words, and LLM pattern avoidance.
 
 ## Clarifying Questions (Guidelines)
@@ -122,3 +122,8 @@ When scope is unclear, suggest options:
 1. Do NOT start implementing the PRD
 2. Make sure to ask the user clarifying questions
 3. Take the user's answers to the clarifying questions and improve the PRD
+4. **Context alignment (required):** Reference the company's strategic context (OKRs, product vision, team constraints) from `company-level-context/` when available. Anchor the PRD's Goals and Success Metrics to the relevant company OKR.
+5. **Self-assessment (required):** End every PRD with a brief self-assessment noting: confidence level per section, key risks or assumptions, and any gaps the author is uncertain about.
+6. **AI/ML opportunity (required):** In the Technical Considerations or Design Considerations section, include at least one note on how AI/ML could enhance the feature in current or future iterations.
+7. **Scope trade-offs (required):** When scope decisions were made, document the trade-off considered and why the current scope was chosen.
+8. **Workflow integration (required):** Note upstream inputs (e.g., 1-pager, design brief, discovery research) and downstream next steps (e.g., `/generate-tasks`, `/calculate-ice-score`) to anchor the PRD in the initiative workflow.

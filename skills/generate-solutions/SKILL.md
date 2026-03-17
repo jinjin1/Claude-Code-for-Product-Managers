@@ -123,3 +123,9 @@ Before finalizing, review and evaluate:
 ```
 Interviews → Snapshots → Opportunities → Generate Solutions → ICE Score → Design Brief
 ```
+
+## Self-Evaluation
+- Review whether ideas are genuinely diverse (across categories, not variations)
+- Validate that top 3 solutions each address the target opportunity directly
+- Evaluate evidence basis: Are selected solutions grounded in user research?
+- **AI/ML opportunity:** Consider how AI could enhance ideation (e.g., cross-domain analogy generation, automated feasibility estimation, ML-based solution ranking by predicted user impact). Note relevant opportunities in the output.

@@ -72,6 +72,7 @@ When tone conflicts arise, recommend options:
 - Evaluate consistency: Are rules applied uniformly across the document?
 - Validate that LLM pattern removal produces natural-sounding text
 - Improve by collecting feedback on which edits were accepted vs. rejected
+- **AI/ML opportunity:** Consider how AI could enhance writing quality (e.g., automated readability scoring, context-aware tone adjustment, personalized style learning from accepted edits). Note relevant opportunities in the output.
 
 ## Skill Integration
 - **Before this skill:** Apply after any other skill generates written output (PRDs, 1-pagers, OKRs)

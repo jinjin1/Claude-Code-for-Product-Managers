@@ -81,6 +81,7 @@ Based on OKR quality assessment, recommend one option:
 - Validate that revised OKRs are genuinely testable and executable
 - Evaluate improvement quality: Did before/after examples demonstrate real improvement?
 - Iterate feedback approach based on what resonates with the team
+- **AI/ML opportunity:** Consider how AI could enhance OKR processes (e.g., automated progress tracking, predictive KR forecasting, anomaly detection on leading indicators). Note relevant opportunities in the output.
 
 ## Diagnostic Questions
 Use these to prompt deeper thinking:
