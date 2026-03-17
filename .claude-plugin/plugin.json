@@ -7,10 +7,7 @@
     "name": "Jin"
   },
   "homepage": "https://github.com/jinjin1/Claude-Code-for-Product-Managers",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jinjin1/Claude-Code-for-Product-Managers"
-  },
+  "repository": "https://github.com/jinjin1/Claude-Code-for-Product-Managers",
   "keywords": [
     "product-management",
     "pm-toolkit",
