@@ -9,10 +9,7 @@
   "plugins": [
     {
       "name": "pm-toolkit",
-      "source": {
-        "source": "github",
-        "repo": "jinjin1/Claude-Code-for-Product-Managers"
-      },
+      "source": ".",
       "description": "Comprehensive PM toolkit with AI-native workflows for product strategy, discovery, and delivery. 17 specialized skills + 3 orchestration agents.",
       "category": "productivity",
       "tags": [
