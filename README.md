@@ -17,7 +17,7 @@ Product management involves complex workflows across research, discovery, and de
 
 ### Prerequisites
 
-- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) installed (`npm install -g @anthropic-ai/claude-code`)
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) **v1.0.33 or later** installed (`npm install -g @anthropic-ai/claude-code`)
 - Logged in to Claude Code (`claude` to start, then `/login`)
 
 ### Install as a plugin
@@ -26,7 +26,7 @@ Run these two commands **one at a time** inside Claude Code:
 
 ```bash
 # Step 1: Add the marketplace
-/plugin marketplace add https://github.com/jinjin1/Claude-Code-for-Product-Managers.git
+/plugin marketplace add jinjin1/Claude-Code-for-Product-Managers
 ```
 
 ```bash
@@ -34,7 +34,12 @@ Run these two commands **one at a time** inside Claude Code:
 /plugin install pm-toolkit@pm-toolkit-marketplace
 ```
 
-> **Important:** Do not paste both commands together. Wait for Step 1 to complete before running Step 2.
+> **Important:** Run each command separately. Wait for Step 1 to complete before running Step 2.
+
+> **SSH authentication failed?** If you see `Permission denied (publickey)`, use the HTTPS URL instead:
+> ```bash
+> /plugin marketplace add https://github.com/jinjin1/Claude-Code-for-Product-Managers.git
+> ```
 
 ### Or load directly for local testing
 
@@ -227,7 +232,7 @@ Run these two commands **one at a time** inside Claude Code:
 
 ```bash
 # Step 1: Add the marketplace
-/plugin marketplace add https://github.com/jinjin1/Claude-Code-for-Product-Managers.git
+/plugin marketplace add jinjin1/Claude-Code-for-Product-Managers
 ```
 
 ```bash
@@ -235,7 +240,12 @@ Run these two commands **one at a time** inside Claude Code:
 /plugin install pm-toolkit@pm-toolkit-marketplace
 ```
 
-> **Important:** Do not paste both commands together. Wait for Step 1 to complete before running Step 2.
+> **Important:** Run each command separately. Wait for Step 1 to complete before running Step 2.
+
+> **SSH authentication failed?** Use the HTTPS URL instead:
+> ```bash
+> /plugin marketplace add https://github.com/jinjin1/Claude-Code-for-Product-Managers.git
+> ```
 
 ### Local development / testing
 ```bash
@@ -252,6 +262,7 @@ This plugin can also be submitted to the [Anthropic official marketplace](https:
 |:------|:------|:---------|
 | `SSH authentication failed` / `Permission denied (publickey)` | GitHub SSH key not configured | Use HTTPS URL: `/plugin marketplace add https://github.com/jinjin1/Claude-Code-for-Product-Managers.git` |
 | `Malformed input to a URL function` | Two `/plugin` commands pasted together | Run each command separately -- wait for Step 1 to finish before running Step 2 |
+| `Unknown command: /plugin` | Claude Code version too old | Update to v1.0.33+: `npm update -g @anthropic-ai/claude-code` |
 | `zsh: no such file or directory: /plugin` | Running `/plugin` in terminal instead of Claude Code | Start Claude Code first with `claude`, then run `/plugin` inside the session |
 | `command not found: claude` | Claude Code not installed | Install with `npm install -g @anthropic-ai/claude-code` |
 
