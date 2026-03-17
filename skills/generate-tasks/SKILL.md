@@ -103,9 +103,9 @@ When task scope is ambiguous, suggest options:
 - **Recommend:** Option B for production features, Option A for prototypes
 
 ## Skill Chaining
-- **Before this skill:** Use `create-prd` to define requirements, or `create-one-pager` for scope
+- **Before this skill:** Use `/create-prd` to define requirements, or `/create-one-pager` for scope
 - **After this skill:** Use `process-task-list` to execute tasks systematically
-- **Related workflow:** `create-prd` → this skill → `process-task-list`
+- **Related workflow:** `/create-prd` → this skill → `process-task-list`
 
 ## Target Audience
 

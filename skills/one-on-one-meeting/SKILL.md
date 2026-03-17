@@ -95,7 +95,7 @@ When notes contain ambiguous decisions, suggest options:
 
 ## Skill Integration
 - **Before this skill:** Prepare by reviewing previous 1:1 notes and company OKRs from `company-level-context/okrs/`
-- **After this skill:** Use action items as input to `generate-tasks` workflow for task tracking
+- **After this skill:** Use action items as input to `/generate-tasks` workflow for task tracking
 - **Related:** [Writing Guide](/writing-guide) for tone and style of written notes
 
 ## Time Efficiency

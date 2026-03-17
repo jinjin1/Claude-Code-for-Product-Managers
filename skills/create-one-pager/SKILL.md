@@ -25,11 +25,11 @@ The core purpose is to verify whether the Outcome and Opportunity are truly valu
 * **Style:** Amazon-style 1-pager narrative (logically connected writing, avoiding unnecessary headings/list enumerations)
 * **Writing Standards:** Follow the `/writing-guide` skill rules for voice, tone, banned words, and LLM pattern avoidance.
 
-## When to Use (활용 시나리오)
+## When to Use 
 - When creating a concise product proposal for leadership decision-making
 - When verifying whether an opportunity is worth pursuing as an initiative
 - When preparing a decision document before committing resources
-- 적용 대상: 모든 PM이 새 이니셔티브를 제안할 때 사용
+- Applicability: Used by all PMs when proposing a new initiative
 
 ## Input
 - **Required:** Initiative description, target outcome, and opportunity hypothesis
@@ -91,9 +91,9 @@ When outcome value is ambiguous, suggest options:
 - **Recommend:** Based on data confidence level and time pressure
 
 ## Skill Chaining
-- **Before this skill:** Use `create-opportunities` to identify the opportunity, and `synthesize-snapshots` for user research context
-- **After this skill:** If approved, proceed to `create-prd` for detailed requirements
-- **Related workflow:** `create-opportunities` → this skill → `create-prd` → `generate-tasks`
+- **Before this skill:** Use `/create-opportunities` to identify the opportunity, and `/synthesize-snapshots` for user research context
+- **After this skill:** If approved, proceed to `/create-prd` for detailed requirements
+- **Related workflow:** `/create-opportunities` → this skill → `/create-prd` → `/generate-tasks`
 
 ## Final Instructions
 

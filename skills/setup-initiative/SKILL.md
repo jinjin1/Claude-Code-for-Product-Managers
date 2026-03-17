@@ -108,7 +108,7 @@ initiatives/[initiative-name]/
 
 ## Skill Chaining
 - **Before this skill:** Align initiative with company strategy from `company-level-context/`
-- **After this skill:** Begin discovery with `create-interview-snapshots` or define scope with `create-one-pager`
+- **After this skill:** Begin discovery with `/create-interview-snapshots` or define scope with `/create-one-pager`
 
 ## Integration Points
 After creating the initiative structure, remind the user about these workflow integrations:

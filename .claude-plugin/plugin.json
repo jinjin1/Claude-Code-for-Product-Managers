@@ -1,0 +1,24 @@
+{
+  "name": "pm-toolkit",
+  "description": "Comprehensive PM toolkit with AI-native workflows for product strategy, discovery, and delivery. Includes 17 specialized skills, 3 orchestration agents, and proven PM frameworks like Continuous Discovery Habits, PRISM, ICE scoring, and OKR sparring.",
+  "version": "2.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Jin"
+  },
+  "homepage": "https://github.com/jinjin1/Claude-Code-for-Product-Managers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jinjin1/Claude-Code-for-Product-Managers"
+  },
+  "keywords": [
+    "product-management",
+    "pm-toolkit",
+    "continuous-discovery",
+    "okr",
+    "prd",
+    "product-strategy",
+    "user-research",
+    "ice-scoring"
+  ]
+}

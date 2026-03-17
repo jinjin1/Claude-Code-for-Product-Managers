@@ -113,9 +113,9 @@ When scope is unclear, suggest options:
 - **Recommend:** Option A for time-constrained projects, Option B for strategic features
 
 ## Skill Chaining
-- **Before this skill:** Use `create-one-pager` for approval, and `create-design-brief` for UX context
-- **After this skill:** Use `generate-tasks` to break PRD into development tasks
-- **Related workflow:** `create-one-pager` → this skill → `generate-tasks` → `process-task-list`
+- **Before this skill:** Use `/create-one-pager` for approval, and `/create-design-brief` for UX context
+- **After this skill:** Use `/generate-tasks` to break PRD into development tasks
+- **Related workflow:** `/create-one-pager` → this skill → `/generate-tasks` → `process-task-list`
 
 ## Final instructions
 

@@ -105,5 +105,5 @@ When vision scores are borderline (12–14/20), suggest options:
 
 ## Skill Chaining
 - **Before this skill:** Draft vision using company strategic context from `company-level-context/product-vision-and-strategy/`
-- **After this skill:** Use `product-strategy-review` to validate the full strategy built on this vision
-- **Related workflow:** `okr-sparring-partner` to ensure OKRs align with the reviewed vision
+- **After this skill:** Use `/product-strategy-review` to validate the full strategy built on this vision
+- **Related workflow:** `/okr-sparring-partner` to ensure OKRs align with the reviewed vision

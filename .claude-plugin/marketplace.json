@@ -1,0 +1,29 @@
+{
+  "name": "pm-toolkit-marketplace",
+  "owner": {
+    "name": "Jin"
+  },
+  "metadata": {
+    "description": "Product Manager toolkit for Claude Code with 17 skills, 3 agents, and proven PM frameworks"
+  },
+  "plugins": [
+    {
+      "name": "pm-toolkit",
+      "source": {
+        "source": "github",
+        "repo": "jinjin1/Claude-Code-for-Product-Managers"
+      },
+      "description": "Comprehensive PM toolkit with AI-native workflows for product strategy, discovery, and delivery. 17 specialized skills + 3 orchestration agents.",
+      "version": "2.0.0",
+      "category": "productivity",
+      "tags": [
+        "product-management",
+        "prd",
+        "okr",
+        "user-research",
+        "continuous-discovery",
+        "product-strategy"
+      ]
+    }
+  ]
+}

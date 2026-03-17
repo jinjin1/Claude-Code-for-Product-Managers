@@ -1,9 +1,8 @@
-# Cursor IDE settings (exclude user-specific, keep skills/agents/rules)
-.cursor/mcp/
-.cursor/settings/
-.cursor/extensions/
 .DS_Store
 .gstack/
+
+# Claude Code (user-specific settings)
+.claude/
 
 # Autoresearch (local experiments, exclude from repo)
 *autoresearch*
