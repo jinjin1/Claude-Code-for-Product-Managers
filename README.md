@@ -15,6 +15,11 @@ Product management involves complex workflows across research, discovery, and de
 
 ## Quick start
 
+### Prerequisites
+
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) installed (`npm install -g @anthropic-ai/claude-code`)
+- Logged in to Claude Code (`claude` to start, then `/login`)
+
 ### Install as a plugin
 
 ```bash
@@ -22,6 +27,12 @@ Product management involves complex workflows across research, discovery, and de
 /plugin marketplace add jinjin1/Claude-Code-for-Product-Managers
 /plugin install pm-toolkit@pm-toolkit-marketplace
 ```
+
+> **SSH authentication failed?** If you see `git@github.com: Permission denied (publickey)`, use the HTTPS URL instead:
+> ```bash
+> /plugin marketplace add https://github.com/jinjin1/Claude-Code-for-Product-Managers.git
+> /plugin install pm-toolkit@pm-toolkit-marketplace
+> ```
 
 ### Or load directly for local testing
 
@@ -214,13 +225,28 @@ meeting-notes/                -- Meeting documentation
 /plugin install pm-toolkit@pm-toolkit-marketplace
 ```
 
+If SSH authentication fails, use the HTTPS URL:
+```bash
+/plugin marketplace add https://github.com/jinjin1/Claude-Code-for-Product-Managers.git
+/plugin install pm-toolkit@pm-toolkit-marketplace
+```
+
 ### Local development / testing
 ```bash
+git clone https://github.com/jinjin1/Claude-Code-for-Product-Managers.git
 claude --plugin-dir ./Claude-Code-for-Product-Managers
 ```
 
 ### Submit to official marketplace
 This plugin can also be submitted to the [Anthropic official marketplace](https://claude.ai/settings/plugins/submit).
+
+## Troubleshooting
+
+| Error | Cause | Solution |
+|:------|:------|:---------|
+| `SSH authentication failed` / `Permission denied (publickey)` | GitHub SSH key not configured | Use HTTPS URL: `/plugin marketplace add https://github.com/jinjin1/Claude-Code-for-Product-Managers.git` |
+| `zsh: no such file or directory: /plugin` | Running `/plugin` in terminal instead of Claude Code | Start Claude Code first with `claude`, then run `/plugin` inside the session |
+| `command not found: claude` | Claude Code not installed | Install with `npm install -g @anthropic-ai/claude-code` |
 
 ## Acknowledgments
 
