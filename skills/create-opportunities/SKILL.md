@@ -124,3 +124,9 @@ Before finalizing, review and evaluate:
 ```
 Interviews → Snapshots → Synthesize → Create Opportunities → Generate Solutions
 ```
+
+## Self-Evaluation
+- Review whether opportunity statements use customer language (not internal jargon)
+- Validate that each opportunity is backed by evidence from 2+ participants
+- Evaluate strategic alignment against company OKR and product vision
+- **AI/ML opportunity:** Consider how AI could enhance opportunity discovery (e.g., automated clustering of interview themes, predictive opportunity sizing based on market data, ML-based prioritization across multiple evidence dimensions). Note relevant opportunities in the output.

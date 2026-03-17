@@ -15,7 +15,7 @@ To guide an AI assistant in creating a detailed, step-by-step task list in Markd
 - When breaking down a PRD or feature request into actionable development tasks
 - When creating a step-by-step implementation plan for developers
 - When organizing work for sprint planning
-- 적용 대상: PM이 개발팀에 구체적인 작업 목록을 전달할 때 사용
+- Applicable to: PMs delivering specific task lists to development teams
 
 ## Input
 - **Required:** Feature request, PRD, or requirements document
@@ -106,6 +106,12 @@ When task scope is ambiguous, suggest options:
 - **Before this skill:** Use `/create-prd` to define requirements, or `/create-one-pager` for scope
 - **After this skill:** Use `process-task-list` to execute tasks systematically
 - **Related workflow:** `/create-prd` → this skill → `process-task-list`
+
+## Self-Evaluation
+- Review whether all tasks are actionable and specific enough for a junior developer
+- Validate that task decomposition covers the full scope of the PRD
+- Evaluate whether relevant files section accurately identifies affected codebase areas
+- **AI/ML opportunity:** Consider how AI could enhance task planning (e.g., automated effort estimation based on codebase complexity, dependency detection across tasks, intelligent task ordering for parallel execution). Note relevant opportunities in the output.
 
 ## Target Audience
 

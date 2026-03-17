@@ -141,3 +141,9 @@ Opportunities → ICE Scoring → Design Brief → Figma Prompt
 - Exclude evidence not directly tied to Impact from Confidence
 - Prevent duplicate counting of the same source
 - When uncertain, apply conservative caps and document in Risks
+
+## Self-Evaluation
+- Review whether evidence classifications are accurate and conservative
+- Validate mathematical correctness of ICE computation and group caps
+- Evaluate whether priority guidance matches the score and strategic context
+- **AI/ML opportunity:** Consider how AI could enhance prioritization (e.g., predictive impact modeling based on historical initiative outcomes, automated evidence strength scoring, ML-based confidence calibration). Note relevant opportunities in the output.

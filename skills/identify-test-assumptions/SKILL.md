@@ -87,6 +87,7 @@ Based on test results, recommend one of these options:
 - Evaluate test design: Is the simulation minimal? Is the audience correct?
 - After results, improve the process: What false positives/negatives occurred? How to iterate?
 - Use feedback from test outcomes to refine future assumption identification
+- **AI/ML opportunity:** Consider how AI could enhance assumption testing (e.g., synthetic user simulations, automated sentiment analysis of test responses, predictive models for assumption validation). Note relevant opportunities in the output.
 
 ## Skill Integration
 - **Before this skill:** Run after [Create Opportunities](/create-opportunities) or [Generate Solutions](/generate-solutions)

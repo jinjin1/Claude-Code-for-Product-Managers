@@ -101,5 +101,10 @@ When outcome value is ambiguous, suggest options:
 2. Write in **narrative + summary bullet** structure reflecting user responses.
 3. **Save 1-Pager:** Save the generated document as `1-pager-[feature-name].md` inside the `/prd/` directory.
 4. Verify that the completed document fulfills the purpose of **triggering discussion, revealing uncomfortable facts, and decision resolution**.
+5. **Context alignment (required):** Reference the company's strategic context (OKRs, product vision) from `company-level-context/` when available. Anchor the Outcome section to the relevant company OKR.
+6. **Self-assessment (required):** End every 1-Pager with a brief confidence indicator noting key risks and assumptions that remain unvalidated.
+7. **AI/ML opportunity (required):** Where relevant, note how AI or automation could enhance the proposed initiative or its measurement in current or future iterations.
+8. **Scope trade-offs (required):** When scope decisions were made (e.g., MVP vs full scope), briefly document what was considered and why.
+9. **Workflow integration (required):** Every 1-Pager must end with a brief integration note stating upstream inputs (e.g., discovery research, opportunity mapping) and downstream next steps (e.g., PRD via `/create-prd`, task breakdown via `/generate-tasks`). This anchors the document in the initiative workflow.
 
 ---

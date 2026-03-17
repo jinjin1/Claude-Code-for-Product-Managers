@@ -134,3 +134,9 @@ Before finalizing, validate and evaluate:
 ```
 Opportunities → ICE Score → Design Brief → Figma Prompt → Figma Make
 ```
+
+## Self-Evaluation
+- Review whether JSON is under 5000 characters and structurally valid
+- Validate that design tokens correctly map to the existing design system
+- Evaluate whether component selections match the design brief requirements
+- **AI/ML opportunity:** Consider how AI could enhance design generation (e.g., AI-powered layout optimization, automated responsive variant generation, ML-based design quality scoring). Note relevant opportunities in the output.

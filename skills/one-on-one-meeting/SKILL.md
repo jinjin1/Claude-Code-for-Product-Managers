@@ -92,6 +92,7 @@ When notes contain ambiguous decisions, suggest options:
 - Evaluate if decisions capture sufficient rationale for future context
 - Validate that follow-ups from previous meetings are consistently tracked
 - Improve by iterating on note structure based on feedback from meeting participants
+- **AI/ML opportunity:** Consider how AI could enhance 1:1 meetings (e.g., auto-summarization from transcripts, sentiment tracking across meetings, proactive action item suggestions based on recurring topics). Note relevant opportunities in the output.
 
 ## Skill Integration
 - **Before this skill:** Prepare by reviewing previous 1:1 notes and company OKRs from `company-level-context/okrs/`

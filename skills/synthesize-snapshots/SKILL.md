@@ -82,6 +82,7 @@ When synthesis reveals conflicting patterns, recommend options:
 - Validate segment coverage: Are all user types represented?
 - Improve by checking for common mistakes: over-generalization, confirmation bias, jumping to solutions
 - Iterate: Use feedback from opportunity creation to refine future synthesis
+- **AI/ML opportunity:** Consider how AI could enhance synthesis (e.g., automated pattern detection across transcripts, NLP-based sentiment clustering, cross-interview theme extraction at scale). Note relevant opportunities in the output.
 
 ## Skill Integration
 - **Before this skill:** Complete interviews using [Create Interview Snapshots](/create-interview-snapshots)
